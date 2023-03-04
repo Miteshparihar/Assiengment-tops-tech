@@ -86,6 +86,7 @@ ans:- To set the background image of a webpage, use the CSS style.
 16.How are active links different from normal links? 
 ans:- Normal links are links which are there on the page and have not been clicked yet.
       Active links are those links, which have just been clicked at that instant.
+      ex:- <a href="">this is a normal link</a>a and then click these link are active.
 
 17. What are the different tags to separate sections of text?
 ans:- We separate a section of texts in HTML using the below tags: br tag – It is used to separate the line of text. 
