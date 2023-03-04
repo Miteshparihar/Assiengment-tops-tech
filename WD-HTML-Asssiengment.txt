@@ -37,8 +37,22 @@ ans:- Cellpadding basically defines the space present between a table cell's bor
 
 10. How can we club two or more rows or columns into a single row or column in an HTML table?
 ans:- It can be done by using the rowspan and colspan attribute in HTML.
-      The rowspan is used to merge or combine the number of cells in a row whereas What is the difference between a block-level element and an inline element.
+      The rowspan is used to merge or combine the number of cells in a row.
       The colspan is used to merge column cells in a table.
+      ex:- <table border="2px">
+        <tr>
+            <td colspan="4">1</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">3</td>
+          
+           
+        </tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </table>      
 
 11. What is the difference between a block-level element and an inline element?
 ans:- Block elements always start from a new line. Inline elements never start from a new line.
@@ -48,6 +62,7 @@ ans:- Block elements always start from a new line. Inline elements never start f
 12. How to create a Hyperlink in HTML?
 ans:- To make a hyperlink in an HTML page, use the and tags, which are the tags used to define the links. 
       The tag indicates where the hyperlink starts and the tag indicates where it ends. Whatever text gets added inside these tags, will work as a hyperlink. Add the URL for the link in the .
+      ex:- <a href=""></a>
 
 13. What is the use of an iframe tag?
 ans:- An inline frame (iframe) is a HTML element that loads another HTML page within the document.
@@ -61,8 +76,14 @@ ans:- Span is Also a container used for other HTML Elements.
 ans:- To set the background image of a webpage, use the CSS style. 
       Under the CSS <style> tag, add the property background-image. The property sets a graphic such as jpg, png, svg, gif, etc.
       HTML5 do not support the background attribute, so CSS is used to change set background image.
+      ex:- <style>
+        body
+        {
+            background-image: url();
+        }
+    </style>
 
-16. How are active links different from normal links.?
+16.How are active links different from normal links? 
 ans:- Normal links are links which are there on the page and have not been clicked yet.
       Active links are those links, which have just been clicked at that instant.
 
