@@ -1,0 +1,91 @@
+                                       WD-CSS-Assiengment.
+                                   ---------------------------
+
+
+01.Name a few CSS style components.
+Ans- Background-color, color, height  , width , border , border-box , etc.
+
+02. What do you understand by CSS opacity?
+Ans- In CSS , A property given name opacity, this property sets a opacity and blur of html element. This is help to double image shown and first image is darked and second image is blur so this property applied.
+
+03. How can the background color of an element be changed?
+Ans- In a style tag an property that’s name background color and applied on element  and any color applied and cover only given height and width.
+Ex;  <style>
+           div{ 
+                 background-color:- ;
+                 }
+       </style>
+
+04. How can image repetition of the backup be controlled?
+Ans- In CSS, there is a background repetition property inside if applied ‘no-repeat ’ then does not repeat the image.
+             <style>
+                    div{
+                          Background-repetition:-No-repeat;
+                          }
+            </style>
+
+05. What is the use of the background-position property?
+Ans- Background position is used to set the background image and cover it in the size of the screen.
+
+06. Which property controls the image scroll in the background?
+Ans- Background attachment property set a background image scrolls with the page or is a ‘fixed’.
+
+
+07. How can image repetition of the backup be controlled?
+ans= .image
+          {
+            background-repeat="no-repeat" 
+          }
+
+08. What is the use of the background-position property?
+ans= The use of the background-position property to adjust a background-image.
+ 
+09. Which property controls the image scroll in the background?
+ans= The property that is used to control the scrolling of an image in the background. The background-attachment property in CSS is used to specify the kind of attachment of the background image with respect to its container.
+
+10. Why should background and color be used as separate properties?
+ans= There are two reasons behind this: It enhances the legibility of style sheets. The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+
+11. How to center block elements using CSS1?
+ans= By setting the values of margin-left to auto and margin-right to auto and width to some explicit value: block level element will center itself.
+
+12. How to maintain the CSS specifications?
+ans= the CSS specifications requires understanding the context, vocabulary, and fundamental concepts that the specifications are built out of. 
+
+13. What are the ways to integrate CSS as a web page?
+ans= There are three ways of inserting a style sheet:
+ 
+      >External CSS
+      >Internal CSS
+      >Inline CSS
+ 
+14. What is embedded style sheets?
+ans= Embedded Stylesheet: It allows you to define styles for a particular HTML document as a whole in one place. This is done by embedding the <style></style> tags
+
+15. What are the external style sheets?
+ans= An external style sheet is a separate file with a .css extension with all CSS style definitions for the HTML page(s). You can reference this file in the <link> tag inside the <head> in the HTML
+
+16. What are the advantages and disadvantages of using external style sheets?
+ans=  Advantage:-
+      > everything is stored within a single file.
+      > once changed/updated, the changes are reflected on all other pages that reference the stylesheet.
+      > this makes it easier to maintain larger websites.
+
+      Disadvantage:-
+     > Browser dependency - Style sheets format things slightly differently on different browsers. Unfortunately, browsers have different support for HTML and style sheets. ...
+     > Old Browsers - Some very old browsers (such Netscape Navigator 2) do not support style sheets.
+
+17. What is the meaning of the CSS selector?
+ans= A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+18. What are the media types allowed by CSS?
+ans= continuous or paged.
+     visual, audio, speech, or tactile.
+     grid (for character grid devices), or bitmap.
+     interactive (for devices that allow user interaction), or static (for those that do not).
+     all (includes all media types)
+
+19. What is the rule set?
+ans=  A selector group and an associated declarations block, together, are called a ruleset.
+ 
+
