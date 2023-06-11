@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="javascript Asses.css">
+</head>
+<body>
+    <form action="" method="post" onsubmit="return ValidData()">
+       
+        <div class="main">
+          <p class="yellow"></p>
+          <p class="text">Responsive Registration <br> Form</p>
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" class="input1" placeholder="Email" id="input1"> 
+          <br>
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" class="input2" placeholder="Password" id="input2">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" class="input3" placeholder="Re-type Password" id="input3">
+          <i class="fa-solid fa-user" id="so"></i>
+          <input type="text" class="input4" placeholder="First Name" id="input4">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Last Name" class="input5" id="input5">
+          <br>
+          <input type="radio" name="gender" class="input6" id="input6">Male
+          <input type="radio" name="gender">Female
+          <br>
+          
+            <p class="input7">Select a country <i class="fa-solid fa-caret-down"></i></p>
+            <input type="checkbox" class="checkbox1"> I agree with terms and conditions <br>
+            <input type="checkbox" class="checkbox2"> I want to receive the newsletter
+           <input type="submit" value="Register" class="submit">
+          
+        </div>
+    </form>
+</body>
+</html>
+<script>
+      function ValidData()
+   {
+    var email = document.getElementById('input1').value;
+    if(email == "")
+    {
+         alert("please enter email!")
+        document.getElementById('input1').focus();
+        return false;
+    }
+    var pwd = document.getElementById('input2').value;
+    if(pwd == "")
+    {
+        alert("Please enter password!");
+        document.getElementById('input2').focus();
+        return false;
+    }
+    var repwd = document.getElementById('input3').value;
+    if(repwd == "")
+    {
+        alert("Re-enter your password!");
+        document.getElementById('input3').focus();
+        return false;
+    }
+    var name = document.getElementById('input4').value;
+    if(name == "")
+    {
+        alert("Please enter name!");
+        document.getElementById('input4').focus();
+        return false;
+    }
+    var name = document.getElementById('input5').value;
+    if(name == "")
+    {
+        alert("Please enter last name!");
+        document.getElementById('input5').focus();
+        return false;
+    }
+}
+</script>
